@@ -8,7 +8,7 @@ import './home.css';
 function Home () {
 
     return (
-        <div className="home-vert-presentation">  
+        <div className="home-container">  
             <HomeIntro />
             <Specializations />
             <Testimonials />
