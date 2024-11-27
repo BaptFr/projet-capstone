@@ -1,0 +1,29 @@
+
+.specials-container {
+    width: 100%;
+    margin: 75px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.specials-title-container{
+    display: flex;
+    flex-direction: row;
+    gap: 150px
+}
+
+.specials-button {
+    margin: auto;
+}
+
+#specials-title {
+    font-family: 'Markali Text';
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.specials-offers{
+    
+}
