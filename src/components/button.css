@@ -6,6 +6,17 @@
     background-color: #F4CE14;
 }
 
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.button:active{
+    cursor: pointer;
+    transform: scale(1);
+    box-shadow: none;
+}
+
 .button p {
     width: 100%;
     margin: auto;
@@ -13,5 +24,4 @@
     font-size: 1em;
     font-weight: bold;
     color: #000000;
-    
 }

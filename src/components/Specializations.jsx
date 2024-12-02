@@ -12,7 +12,7 @@ function Specializations () {
         <>
             <div className='specials-container'>
                 <div className= 'specials-title-container'>
-                    <p id='specials-title'>This weeks specials!</p>
+                    <p className='section-title1'>This weeks specials!</p>
                     <div className='specials-button'>
                     <Button title='Online Menu' />
                     </div>

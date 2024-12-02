@@ -32,9 +32,9 @@ h1 {
 }
 
 .offbeat-picture img {
-    max-width: 50%;
-    width: 300px;
-    height: 300px;
+    max-width: 60%;
+    width: 350px;
+    height: 350px;
     position: relative;
     top: 80px;
     border-radius: 10px;

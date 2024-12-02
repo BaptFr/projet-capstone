@@ -1,4 +1,4 @@
-import './card.css';
+import './specialisations-card.css';
 import DeliveryLogo from '../assets/Basket.svg';
 
 function SpecialCard ({source, title, description}) {
