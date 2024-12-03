@@ -1,9 +1,10 @@
-function Main () {
-    return (
-        <main>
-            
-        </main>
-        );
-    }
+import './main.css';
 
-    export default Main;
+function Main({ children }) {
+    return (
+      <main>
+        {children}
+      </main>
+    );
+}
+  export default Main;

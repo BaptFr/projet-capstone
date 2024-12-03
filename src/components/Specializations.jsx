@@ -7,21 +7,20 @@ import LemonDessert from '../assets/lemondessert.jpg';
 
 
 function Specializations () {
-
     return (
         <>
             <div className='specials-container'>
                 <div className= 'specials-title-container'>
                     <p className='section-title1'>This weeks specials!</p>
                     <div className='specials-button'>
-                    <Button title='Online Menu' />
+                    <Button title='Online Menu' aria-label='Online Menu access button'/>
                     </div>
                 </div>
                 <div className='specials-offers'>
                     <SpecialCard
                         source = {GreekSalad}
                         title= 'Greek Salad'
-                        description='The famous greek salad of 
+                        description='The famous greek salad of
                         Cruispy lettuce, peppers, olives
                         and our Chicago style feta cheese, garnished with
                         crunchy garlic and rosemary
@@ -30,8 +29,8 @@ function Specializations () {
                     <SpecialCard
                         source ={Bruchetta}
                         title= 'Bruchetta'
-                        description='Our Bruschetta is made from 
-                        grilled bread with garlic and 
+                        description='Our Bruschetta is made from
+                        grilled bread with garlic and
                         seasoned with salt and olive oil'
                     />
                     <SpecialCard

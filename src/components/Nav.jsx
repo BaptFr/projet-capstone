@@ -7,12 +7,12 @@ function Nav () {
         <nav>
             <img src={Logo}alt="logo-lemon"></img>
             <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/menu">Menu</Link></li>
-                <li><Link to="/reservations">Reservations</Link></li>
-                <li><Link to="/orderonline">Order online</Link></li>
-                <li><Link to="login">Login</Link></li>
+                <li aria-label='Home pagelink'><Link to="/">Home</Link></li>
+                <li aria-label='About page link'><Link to="/about">About</Link></li>
+                <li aria-label='Menu page link'><Link to="/menu">Menu</Link></li>
+                <li aria-label='Booking page link'><Link to="/booking">Reservations</Link></li>
+                <li aria-label='Order page link'><Link to="/orderonline">Order online</Link></li>
+                <li aria-label='Login page link'><Link to="login">Login</Link></li>
             </ul>
         </nav>
     );

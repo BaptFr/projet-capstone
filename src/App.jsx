@@ -1,28 +1,30 @@
 import React from 'react';
 import { Routes, Route } from'react-router-dom';
+import Main from './components/Main';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/HomePage';
 import About from './components/AboutPage';
 import Menu from './components/MenuPage';
-import ReservationsPage from './components/ReservationsPage';
+import BookingPage from './components/BookingPage';
 import OrderOnline from './components/OrderPage';
 import Login from './components/LoginPage';
-import './App.css';
+
 
 function App() {
   return (
   <>
-    < Header/>
-    <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path="/about" element={<About />} />
-      <Route path="/menu" element={<Menu />} />
-      <Route path="/reservations" element={<ReservationsPage />} />
-      <Route path="/orderonline" element={<OrderOnline />} />
-      <Route path="/login" element={<Login />} />
-    </Routes>
-
+    <Header/>
+    <Main>
+      <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/about" element={<About />} />
+        <Route path="/menu" element={<Menu />} />
+        <Route path="/booking" element={<BookingPage />} />
+        <Route path="/orderonline" element={<OrderOnline />} />
+        <Route path="/login" element={<Login />} />
+      </Routes>
+    </Main>
     <Footer/>
   </>
   );

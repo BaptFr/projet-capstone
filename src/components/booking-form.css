@@ -1,0 +1,32 @@
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    font-family:'Markazi Text';
+    font-size: x-large;
+    font-weight: bold;
+}
+
+input, select, option {
+    text-align: center;
+    font-size: large;
+     font-family:'Karla';
+}
+
+#submit{
+    margin: 50px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #FBDABB;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px #000000;
+}
+#submit:hover{
+    cursor: pointer
+}
+#submit:active{
+    transform:scale(0.95);
+    box-shadow: none;
+}

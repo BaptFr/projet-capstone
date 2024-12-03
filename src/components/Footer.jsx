@@ -18,12 +18,12 @@ function Footer () {
             <div className='footer-nav'>
                 <p className='footer-titles'>Navigation</p>
                 <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/menu">Menu</Link></li>
-                    <li><Link to="/reservations">Reservations</Link></li>
-                    <li><Link to="/orderonline">Order online</Link></li>
-                    <li><Link to="login">Login</Link></li>
+                    <li aria-label='Link to home page'><Link to="/">Home</Link></li>
+                    <li aria-label='Link to about page'><Link to="/about">About</Link></li>
+                    <li aria-label='Link to menu page'><Link to="/menu">Menu</Link></li>
+                    <li aria-label='Link to reservations page'><Link to="/reservations">Reservations</Link></li>
+                    <li aria-label='Link to order online page'><Link to="/orderonline">Order online</Link></li>
+                    <li aria-label='Link to login page'><Link to="login">Login</Link></li>
                 </ul>
             </div>
             <div className='footer-contact'>
@@ -36,14 +36,13 @@ function Footer () {
             <div className='footer-medias'>
                 <p className='footer-titles'>Social Media Links</p>
                 <img src={Uber} alt='link-uber-eat'></img>
-                <img src={Instagram} alt='link-instagram-eat'></img>
-                <img src={Facebook} alt='link-facebook-eat'></img>
-                <img src={Linkedin} alt='link-linkedin-eat'></img>
+                <img src={Instagram} alt='link-instagram'></img>
+                <img src={Facebook} alt='link-facebook'></img>
+                <img src={Linkedin} alt='link-linkedin'></img>
             </div>
-
         </div>
     </>
     );
 }
 
-    export default Footer;
+export default Footer;
