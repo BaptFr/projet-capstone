@@ -12,7 +12,7 @@ function Nav () {
                 <li aria-label='Menu page link'><Link to="/menu">Menu</Link></li>
                 <li aria-label='Booking page link'><Link to="/booking">Reservations</Link></li>
                 <li aria-label='Order page link'><Link to="/orderonline">Order online</Link></li>
-                <li aria-label='Login page link'><Link to="login">Login</Link></li>
+                <li aria-label='Login page link'><Link to="/login">Login</Link></li>
             </ul>
         </nav>
     );

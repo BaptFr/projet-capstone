@@ -1,0 +1,41 @@
+.confirmation-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.confirmation-container img{
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+    position: relative;
+}
+
+.confirmation-container p {
+    position: absolute;
+    top: 50%;
+    width: 50vw;
+    font-family: 'Markazi Text';
+    font-size: 50px;
+    text-align: center;
+    border: solid 4px #495E57;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px #ffffff;
+    cursor: pointer;
+    background-color: #FBDABB;
+}
+
+.confirmation-container p:hover {
+    transform: scale(1.1);
+}
+.confirmation-container p:active{
+    transform: scale(1);
+    box-shadow: none;
+}
+
+.confirmation-container a {
+    text-decoration: none;
+    color: #000000;
+
+}

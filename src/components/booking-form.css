@@ -1,3 +1,6 @@
+h2 {
+    margin: 100px 0px;
+}
 form{
     width: 100%;
     display: flex;
@@ -12,7 +15,9 @@ form{
 input, select, option {
     text-align: center;
     font-size: large;
-     font-family:'Karla';
+    font-family:'Karla';
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
 #submit{

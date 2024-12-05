@@ -9,6 +9,7 @@ import Menu from './components/MenuPage';
 import BookingPage from './components/BookingPage';
 import OrderOnline from './components/OrderPage';
 import Login from './components/LoginPage';
+import ConfirmationPage from './components/ConfirmationPage';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Route path="/booking" element={<BookingPage />} />
         <Route path="/orderonline" element={<OrderOnline />} />
         <Route path="/login" element={<Login />} />
+        <Route path='/confirmation' element={<ConfirmationPage />} />
       </Routes>
     </Main>
     <Footer/>

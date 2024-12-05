@@ -9,7 +9,6 @@ function BookingPage () {
                 <div className='page-intro-banner'>
                     <img src={RestaurantOutdoor} alt='restaurant-outdoor'></img>
                 </div>
-                <h2> RESERVATION </h2>
                 <div className='booking-form-container'>
                     < BookingForm />
                 </div>

@@ -5,7 +5,6 @@ import Button from './Button.jsx';
 import IntroPic from '../assets/restaurantfood.jpg';
 
 function HomeIntro () {
-
     return (
         <>
             <div className="two-columns">
