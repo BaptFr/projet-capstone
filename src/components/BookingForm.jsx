@@ -40,7 +40,6 @@ function BookingForm() {
         }else {
             alert('Time slot already booked !')
         }
-
       };
 
 
