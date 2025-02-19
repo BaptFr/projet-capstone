@@ -1,1 +1,2 @@
- Little Lemon Restaurant Project with online reservations.
+ Little Lemon Restaurant with online reservations.
+META Capstone Project.
